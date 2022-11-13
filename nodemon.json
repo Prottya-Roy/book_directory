@@ -1,0 +1,9 @@
+{
+    "env":{
+        "JWT_KEY": "secret",
+        "database": "book_directory",
+        "databaseUser":"root",
+        "databasePassword": "11805011"
+    }
+    
+}
