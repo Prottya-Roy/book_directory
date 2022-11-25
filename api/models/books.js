@@ -13,7 +13,11 @@ const Book = sequelize.define("problem", {
     allowNull: false,
   },
   description: {
-    type: Sequelize.STRING(1000),
+    type: Sequelize.STRING,
+    allowNull: false,
+  },
+  writerName: {
+    type: Sequelize.STRING,
     allowNull: false,
   },
 });
